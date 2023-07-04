@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        
+        .outer {
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(240, 236, 236);
+            display: flex;
+            justify-content: center;
+            
+        }
+        .box {
+            align-self: center;
+            flex-direction: column;
+            display: flex;
+            width: 500px;
+            height: 300px;
+            background-color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .log{
+            align-self: center;
+        }
+        .button{
+            align-self: center;
+            background-color: rgb(15, 106, 252);
+            color: #fff;
+            height: 30px;
+            width: 400px;
+            text-align: center;
+            padding-top: 8px;
+            margin-top: 20px;
+        }
+        label{
+            margin-left: 50px;
+            color: grey;
+            font-weight: bold;
+        }
+        hr{
+            width: 400px;
+            margin-left: 50px;
+        }
+        .p{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="box">
+            <h1 class="log">Login</h1>
+            <label for="username">Username</label><br>
+            <hr>
+            <label for="password" class="p">Password</label><br>
+            <hr>
+            <div class="button">Submit</div>
+        </div>
+    </div>
+</body>
+</html>
